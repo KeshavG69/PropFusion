@@ -157,14 +157,6 @@
         "documentation": {}
     },
     {
-        "label": "scrape_property",
-        "importPath": "homeharvest",
-        "description": "homeharvest",
-        "isExtraImport": true,
-        "detail": "homeharvest",
-        "documentation": {}
-    },
-    {
         "label": "Pool",
         "importPath": "multiprocessing",
         "description": "multiprocessing",
@@ -186,14 +178,6 @@
         "description": "utils.agno_tools",
         "isExtraImport": true,
         "detail": "utils.agno_tools",
-        "documentation": {}
-    },
-    {
-        "label": "fetch_properties",
-        "importPath": "main",
-        "description": "main",
-        "isExtraImport": true,
-        "detail": "main",
         "documentation": {}
     },
     {
@@ -305,30 +289,12 @@
         "documentation": {}
     },
     {
-        "label": "props",
-        "kind": 5,
-        "importPath": "debug_fields",
-        "description": "debug_fields",
-        "peekOfCode": "props = scrape_property(\n    location=\"Philadelphia, PA\",\n    listing_type=\"for_sale\",\n    price_max=100000\n)\nif props is not None and len(props) > 0:\n    print(\"\\nAvailable columns in HomeHarvest DataFrame:\")\n    print(props.columns.tolist())\n    print(\"\\nFirst property data:\")\n    first_prop = props.iloc[0]",
-        "detail": "debug_fields",
-        "documentation": {}
-    },
-    {
         "label": "main",
         "kind": 2,
         "importPath": "main",
         "description": "main",
-        "peekOfCode": "def main():\n    \"\"\"Example usage of fetch_properties function\"\"\"\n    # # Example 1: Philadelphia properties under $500k\n    # print(\"\\n\" + \"=\"*60)\n    # print(\"Example 1: Philadelphia, PA - Budget $500,000\")\n    # print(\"=\"*60)\n    fetch_properties = create_fetch_properties_function(session_id=\"example_session_123\",user_id=\"example_user_456\")\n    # properties = fetch_properties(\"Philadelphia, PA\", 500000)\n    # if properties:\n    #     print(f\"\\nFound {len(properties)} properties:\\n\")",
+        "peekOfCode": "def main():\n    \"\"\"Example usage of fetch_properties function\"\"\"\n    # # Example 1: Philadelphia properties under $500k\n    print(\"\\n\" + \"=\"*60)\n    print(\"Example 1: Philadelphia, PA - Budget $500,000\")\n    print(\"=\"*60)\n    fetch_properties = create_fetch_properties_function(session_id=\"example_session_123\",user_id=\"example_user_456\")\n    properties = fetch_properties(\"Philadelphia, PA\", 500000)\n    if properties:\n        print(f\"\\nFound {len(properties)} properties:\\n\")",
         "detail": "main",
-        "documentation": {}
-    },
-    {
-        "label": "props",
-        "kind": 5,
-        "importPath": "test",
-        "description": "test",
-        "peekOfCode": "props = fetch_properties('Philadelphia, PA', 100000)\nprint(f\"Got {len(props)} properties\")\nif props:\n    print(\"\\nFirst property:\")\n    for key, value in props[0].items():\n        print(f\"  {key}: {value}\")",
-        "detail": "test",
         "documentation": {}
     }
 ]

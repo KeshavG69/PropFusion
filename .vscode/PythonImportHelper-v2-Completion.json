@@ -44,6 +44,62 @@
         "documentation": {}
     },
     {
+        "label": "APIRouter",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPException",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Query",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "FastAPI",
+        "importPath": "fastapi",
+        "description": "fastapi",
+        "isExtraImport": true,
+        "detail": "fastapi",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Optional",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "List",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "List",
         "importPath": "typing",
         "description": "typing",
@@ -76,6 +132,14 @@
         "documentation": {}
     },
     {
+        "label": "Dict",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
         "label": "Optional",
         "importPath": "typing",
         "description": "typing",
@@ -84,11 +148,124 @@
         "documentation": {}
     },
     {
-        "label": "Dict",
-        "importPath": "typing",
-        "description": "typing",
+        "label": "math",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "typing",
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "Property",
+        "importPath": "app.models.property",
+        "description": "app.models.property",
+        "isExtraImport": true,
+        "detail": "app.models.property",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyListResponse",
+        "importPath": "app.models.property",
+        "description": "app.models.property",
+        "isExtraImport": true,
+        "detail": "app.models.property",
+        "documentation": {}
+    },
+    {
+        "label": "BaseModel",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "Field",
+        "importPath": "pydantic",
+        "description": "pydantic",
+        "isExtraImport": true,
+        "detail": "pydantic",
+        "documentation": {}
+    },
+    {
+        "label": "CORSMiddleware",
+        "importPath": "fastapi.middleware.cors",
+        "description": "fastapi.middleware.cors",
+        "isExtraImport": true,
+        "detail": "fastapi.middleware.cors",
+        "documentation": {}
+    },
+    {
+        "label": "AsyncIOMotorClient",
+        "importPath": "motor.motor_asyncio",
+        "description": "motor.motor_asyncio",
+        "isExtraImport": true,
+        "detail": "motor.motor_asyncio",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "load_dotenv",
+        "importPath": "dotenv",
+        "description": "dotenv",
+        "isExtraImport": true,
+        "detail": "dotenv",
+        "documentation": {}
+    },
+    {
+        "label": "properties",
+        "importPath": "app.api",
+        "description": "app.api",
+        "isExtraImport": true,
+        "detail": "app.api",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
         "documentation": {}
     },
     {
@@ -116,6 +293,22 @@
         "documentation": {}
     },
     {
+        "label": "MongoClient",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
+        "label": "GEOSPHERE",
+        "importPath": "pymongo",
+        "description": "pymongo",
+        "isExtraImport": true,
+        "detail": "pymongo",
+        "documentation": {}
+    },
+    {
         "label": "ConnectionFailure",
         "importPath": "pymongo.errors",
         "description": "pymongo.errors",
@@ -132,52 +325,63 @@
         "documentation": {}
     },
     {
-        "label": "load_dotenv",
-        "importPath": "dotenv",
-        "description": "dotenv",
-        "isExtraImport": true,
-        "detail": "dotenv",
-        "documentation": {}
-    },
-    {
-        "label": "pandas",
+        "label": "json",
         "kind": 6,
         "isExtraImport": true,
-        "importPath": "pandas",
-        "description": "pandas",
-        "detail": "pandas",
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
         "documentation": {}
     },
     {
-        "label": "scrape_property",
-        "importPath": "homeharvest",
-        "description": "homeharvest",
+        "label": "time",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "homeharvest",
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
         "documentation": {}
     },
     {
-        "label": "Pool",
-        "importPath": "multiprocessing",
-        "description": "multiprocessing",
+        "label": "requests",
+        "kind": 6,
         "isExtraImport": true,
-        "detail": "multiprocessing",
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
         "documentation": {}
     },
     {
-        "label": "cpu_count",
-        "importPath": "multiprocessing",
-        "description": "multiprocessing",
+        "label": "fetch_zillow_properties",
+        "importPath": "zillow_scraper",
+        "description": "zillow_scraper",
         "isExtraImport": true,
-        "detail": "multiprocessing",
+        "detail": "zillow_scraper",
         "documentation": {}
     },
     {
-        "label": "create_fetch_properties_function",
-        "importPath": "utils.agno_tools",
-        "description": "utils.agno_tools",
+        "label": "browser",
+        "importPath": "botasaurus.browser",
+        "description": "botasaurus.browser",
         "isExtraImport": true,
-        "detail": "utils.agno_tools",
+        "detail": "botasaurus.browser",
+        "documentation": {}
+    },
+    {
+        "label": "Driver",
+        "importPath": "botasaurus.browser",
+        "description": "botasaurus.browser",
+        "isExtraImport": true,
+        "detail": "botasaurus.browser",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
         "documentation": {}
     },
     {
@@ -262,6 +466,105 @@
         "documentation": {}
     },
     {
+        "label": "get_database",
+        "kind": 2,
+        "importPath": "backend.app.api.properties",
+        "description": "backend.app.api.properties",
+        "peekOfCode": "def get_database():\n    \"\"\"Get database instance from main app\"\"\"\n    from app.main import database\n    return database\n@router.get(\"/\", response_model=PropertyListResponse)\nasync def get_properties(\n    page: int = Query(1, ge=1, description=\"Page number\"),\n    page_size: int = Query(20, ge=1, le=100, description=\"Items per page\"),\n    # Filters\n    min_price: Optional[int] = Query(None, description=\"Minimum price\"),",
+        "detail": "backend.app.api.properties",
+        "documentation": {}
+    },
+    {
+        "label": "router",
+        "kind": 5,
+        "importPath": "backend.app.api.properties",
+        "description": "backend.app.api.properties",
+        "peekOfCode": "router = APIRouter()\ndef get_database():\n    \"\"\"Get database instance from main app\"\"\"\n    from app.main import database\n    return database\n@router.get(\"/\", response_model=PropertyListResponse)\nasync def get_properties(\n    page: int = Query(1, ge=1, description=\"Page number\"),\n    page_size: int = Query(20, ge=1, le=100, description=\"Items per page\"),\n    # Filters",
+        "detail": "backend.app.api.properties",
+        "documentation": {}
+    },
+    {
+        "label": "Location",
+        "kind": 6,
+        "importPath": "backend.app.models.property",
+        "description": "backend.app.models.property",
+        "peekOfCode": "class Location(BaseModel):\n    \"\"\"GeoJSON Point\"\"\"\n    type: str = \"Point\"\n    coordinates: List[Optional[float]]\nclass InvestmentMetrics(BaseModel):\n    \"\"\"Investment calculation metrics\"\"\"\n    cap_rate: Optional[float] = None\n    monthly_cash_flow: Optional[float] = None\n    annual_noi: Optional[float] = None\n    investment_score: Optional[float] = None",
+        "detail": "backend.app.models.property",
+        "documentation": {}
+    },
+    {
+        "label": "InvestmentMetrics",
+        "kind": 6,
+        "importPath": "backend.app.models.property",
+        "description": "backend.app.models.property",
+        "peekOfCode": "class InvestmentMetrics(BaseModel):\n    \"\"\"Investment calculation metrics\"\"\"\n    cap_rate: Optional[float] = None\n    monthly_cash_flow: Optional[float] = None\n    annual_noi: Optional[float] = None\n    investment_score: Optional[float] = None\n    rent_to_price_ratio: Optional[float] = None\nclass Property(BaseModel):\n    \"\"\"Property model\"\"\"\n    property_id: str",
+        "detail": "backend.app.models.property",
+        "documentation": {}
+    },
+    {
+        "label": "Property",
+        "kind": 6,
+        "importPath": "backend.app.models.property",
+        "description": "backend.app.models.property",
+        "peekOfCode": "class Property(BaseModel):\n    \"\"\"Property model\"\"\"\n    property_id: str\n    source: str\n    source_id: str\n    source_url: Optional[str] = None\n    # Address\n    street_address: Optional[str] = None\n    city: str\n    state: str",
+        "detail": "backend.app.models.property",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyListResponse",
+        "kind": 6,
+        "importPath": "backend.app.models.property",
+        "description": "backend.app.models.property",
+        "peekOfCode": "class PropertyListResponse(BaseModel):\n    \"\"\"Response for property list endpoint\"\"\"\n    total: int\n    page: int\n    page_size: int\n    total_pages: int\n    properties: List[Property]\nclass PropertyFilters(BaseModel):\n    \"\"\"Filters for property search\"\"\"\n    min_price: Optional[int] = None",
+        "detail": "backend.app.models.property",
+        "documentation": {}
+    },
+    {
+        "label": "PropertyFilters",
+        "kind": 6,
+        "importPath": "backend.app.models.property",
+        "description": "backend.app.models.property",
+        "peekOfCode": "class PropertyFilters(BaseModel):\n    \"\"\"Filters for property search\"\"\"\n    min_price: Optional[int] = None\n    max_price: Optional[int] = None\n    min_beds: Optional[int] = None\n    max_beds: Optional[int] = None\n    min_baths: Optional[float] = None\n    max_baths: Optional[float] = None\n    min_sqft: Optional[int] = None\n    max_sqft: Optional[int] = None",
+        "detail": "backend.app.models.property",
+        "documentation": {}
+    },
+    {
+        "label": "app",
+        "kind": 5,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "app = FastAPI(\n    title=\"PropFusion API\",\n    description=\"Real Estate Investment Platform API\",\n    version=\"1.0.0\"\n)\n# CORS middleware for frontend\napp.add_middleware(\n    CORSMiddleware,\n    allow_origins=[\"*\"],  # In production, specify your frontend URL\n    allow_credentials=True,",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "MONGODB_URI",
+        "kind": 5,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "MONGODB_URI = os.getenv('MONGODB_URI')\nMONGODB_DB_NAME = os.getenv('MONGODB_DB_NAME', 'propfusion')\n# Global MongoDB client\nmongodb_client: AsyncIOMotorClient = None\ndatabase = None\n@app.on_event(\"startup\")\nasync def startup_db_client():\n    \"\"\"Initialize MongoDB connection on startup\"\"\"\n    global mongodb_client, database\n    mongodb_client = AsyncIOMotorClient(MONGODB_URI)",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "MONGODB_DB_NAME",
+        "kind": 5,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "MONGODB_DB_NAME = os.getenv('MONGODB_DB_NAME', 'propfusion')\n# Global MongoDB client\nmongodb_client: AsyncIOMotorClient = None\ndatabase = None\n@app.on_event(\"startup\")\nasync def startup_db_client():\n    \"\"\"Initialize MongoDB connection on startup\"\"\"\n    global mongodb_client, database\n    mongodb_client = AsyncIOMotorClient(MONGODB_URI)\n    database = mongodb_client[MONGODB_DB_NAME]",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
+        "label": "database",
+        "kind": 5,
+        "importPath": "backend.app.main",
+        "description": "backend.app.main",
+        "peekOfCode": "database = None\n@app.on_event(\"startup\")\nasync def startup_db_client():\n    \"\"\"Initialize MongoDB connection on startup\"\"\"\n    global mongodb_client, database\n    mongodb_client = AsyncIOMotorClient(MONGODB_URI)\n    database = mongodb_client[MONGODB_DB_NAME]\n    print(f\"✅ Connected to MongoDB: {MONGODB_DB_NAME}\")\n@app.on_event(\"shutdown\")\nasync def shutdown_db_client():",
+        "detail": "backend.app.main",
+        "documentation": {}
+    },
+    {
         "label": "PropertyMongoClient",
         "kind": 6,
         "importPath": "clients.mongo_client",
@@ -271,30 +574,228 @@
         "documentation": {}
     },
     {
-        "label": "extract_tax_summary",
+        "label": "fetch_city_properties",
         "kind": 2,
-        "importPath": "utils.agno_tools",
-        "description": "utils.agno_tools",
-        "peekOfCode": "def extract_tax_summary(tax_history: list) -> Dict[str, Optional[float]]:\n    \"\"\"\n    Extract tax summary metrics from tax_history array\n    Args:\n        tax_history: List of tax records with assessment and tax data\n    Returns:\n        Dictionary with:\n        - current_assessment: Latest assessed value\n        - tax_trend_pct: Year-over-year tax change %\n        - assessment_trend_5yr: 5-year assessment growth rate",
-        "detail": "utils.agno_tools",
+        "importPath": "collect_pennsylvania_properties",
+        "description": "collect_pennsylvania_properties",
+        "peekOfCode": "def fetch_city_properties(city: str):\n    \"\"\"Fetch properties for a Pennsylvania city from Zillow\"\"\"\n    location = f\"{city}, PA\"\n    headers = {\n        \"x-api-key\": API_KEY,\n        \"Content-Type\": \"application/json\"\n    }\n    try:\n        response = requests.get(\n            BASE_URL,",
+        "detail": "collect_pennsylvania_properties",
         "documentation": {}
     },
     {
-        "label": "create_fetch_properties_function",
+        "label": "transform_to_propfusion_schema",
         "kind": 2,
-        "importPath": "utils.agno_tools",
-        "description": "utils.agno_tools",
-        "peekOfCode": "def create_fetch_properties_function(session_id: Optional[str] = None, user_id: Optional[str] = None):\n    from clients.mongo_client import PropertyMongoClient\n    # Initialize MongoDB client (currently commented out due to BSON size limits)\n    mongo_client = PropertyMongoClient(user_id, session_id)  # noqa: F841\n    def fetch_properties(locality: str, budget: float) -> List[Dict]:\n        \"\"\"\n        Fetch for-sale properties by locality within budget\n        Args:\n            locality: City/area (e.g., \"Philadelphia, PA\", \"New York\", \"Pennsylvania\")\n            budget: Maximum purchase price (e.g., 500000)",
-        "detail": "utils.agno_tools",
+        "importPath": "collect_pennsylvania_properties",
+        "description": "collect_pennsylvania_properties",
+        "peekOfCode": "def transform_to_propfusion_schema(zillow_property: dict, city: str) -> dict:\n    \"\"\"Transform Zillow data to PropFusion schema\"\"\"\n    address = zillow_property.get('address', {})\n    return {\n        # Core Property Info\n        \"property_id\": f\"zillow_{zillow_property.get('id')}\",\n        \"source\": \"zillow\",\n        \"source_id\": zillow_property.get('id'),\n        \"source_url\": zillow_property.get('url'),\n        # Address",
+        "detail": "collect_pennsylvania_properties",
+        "documentation": {}
+    },
+    {
+        "label": "calculate_investment_metrics",
+        "kind": 2,
+        "importPath": "collect_pennsylvania_properties",
+        "description": "collect_pennsylvania_properties",
+        "peekOfCode": "def calculate_investment_metrics(property_data: dict) -> dict:\n    \"\"\"Calculate investment metrics using Zillow's rent estimate\"\"\"\n    list_price = property_data.get('list_price')\n    rent_estimate = property_data.get('rent_estimate')\n    if not list_price or not rent_estimate:\n        property_data['investment_metrics'] = {\n            \"cap_rate\": None,\n            \"monthly_cash_flow\": None,\n            \"investment_score\": None\n        }",
+        "detail": "collect_pennsylvania_properties",
         "documentation": {}
     },
     {
         "label": "main",
         "kind": 2,
-        "importPath": "main",
-        "description": "main",
-        "peekOfCode": "def main():\n    \"\"\"Example usage of fetch_properties function\"\"\"\n    # # Example 1: Philadelphia properties under $500k\n    print(\"\\n\" + \"=\"*60)\n    print(\"Example 1: Philadelphia, PA - Budget $500,000\")\n    print(\"=\"*60)\n    fetch_properties = create_fetch_properties_function(session_id=\"example_session_123\",user_id=\"example_user_456\")\n    properties = fetch_properties(\"Philadelphia, PA\", 500000)\n    if properties:\n        print(f\"\\nFound {len(properties)} properties:\\n\")",
-        "detail": "main",
+        "importPath": "collect_pennsylvania_properties",
+        "description": "collect_pennsylvania_properties",
+        "peekOfCode": "def main():\n    \"\"\"Main execution function\"\"\"\n    print(\"=\" * 70)\n    print(\"PROPFUSION MVP - PENNSYLVANIA PROPERTIES\")\n    print(\"=\" * 70)\n    print()\n    if not API_KEY:\n        print(\"❌ ERROR: HASDATA_API_KEY not found in .env file\")\n        return\n    print(f\"📊 Collecting properties from {len(PENNSYLVANIA_CITIES)} PA cities\")",
+        "detail": "collect_pennsylvania_properties",
+        "documentation": {}
+    },
+    {
+        "label": "PENNSYLVANIA_CITIES",
+        "kind": 5,
+        "importPath": "collect_pennsylvania_properties",
+        "description": "collect_pennsylvania_properties",
+        "peekOfCode": "PENNSYLVANIA_CITIES = [\n    \"Philadelphia\",\n    \"Pittsburgh\",\n    \"Allentown\",\n    \"Erie\",\n    \"Reading\",\n    \"Scranton\",\n    \"Bethlehem\",\n    \"Lancaster\",\n    \"Harrisburg\",",
+        "detail": "collect_pennsylvania_properties",
+        "documentation": {}
+    },
+    {
+        "label": "BASE_URL",
+        "kind": 5,
+        "importPath": "collect_pennsylvania_properties",
+        "description": "collect_pennsylvania_properties",
+        "peekOfCode": "BASE_URL = \"https://api.hasdata.com/scrape/zillow/listing\"\nAPI_KEY = os.getenv('HASDATA_API_KEY')\ndef fetch_city_properties(city: str):\n    \"\"\"Fetch properties for a Pennsylvania city from Zillow\"\"\"\n    location = f\"{city}, PA\"\n    headers = {\n        \"x-api-key\": API_KEY,\n        \"Content-Type\": \"application/json\"\n    }\n    try:",
+        "detail": "collect_pennsylvania_properties",
+        "documentation": {}
+    },
+    {
+        "label": "API_KEY",
+        "kind": 5,
+        "importPath": "collect_pennsylvania_properties",
+        "description": "collect_pennsylvania_properties",
+        "peekOfCode": "API_KEY = os.getenv('HASDATA_API_KEY')\ndef fetch_city_properties(city: str):\n    \"\"\"Fetch properties for a Pennsylvania city from Zillow\"\"\"\n    location = f\"{city}, PA\"\n    headers = {\n        \"x-api-key\": API_KEY,\n        \"Content-Type\": \"application/json\"\n    }\n    try:\n        response = requests.get(",
+        "detail": "collect_pennsylvania_properties",
+        "documentation": {}
+    },
+    {
+        "label": "import_properties",
+        "kind": 2,
+        "importPath": "import_to_mongodb",
+        "description": "import_to_mongodb",
+        "peekOfCode": "def import_properties():\n    \"\"\"Import properties from JSON to MongoDB\"\"\"\n    print(\"=\" * 70)\n    print(\"PROPFUSION - MONGODB IMPORT\")\n    print(\"=\" * 70)\n    print()\n    # Find the latest Pennsylvania properties file\n    import glob\n    json_files = glob.glob('data/pennsylvania_properties_*.json')\n    if not json_files:",
+        "detail": "import_to_mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "MONGODB_URI",
+        "kind": 5,
+        "importPath": "import_to_mongodb",
+        "description": "import_to_mongodb",
+        "peekOfCode": "MONGODB_URI = os.getenv('MONGODB_URI')\nMONGODB_DB_NAME = os.getenv('MONGODB_DB_NAME', 'propfusion')\ndef import_properties():\n    \"\"\"Import properties from JSON to MongoDB\"\"\"\n    print(\"=\" * 70)\n    print(\"PROPFUSION - MONGODB IMPORT\")\n    print(\"=\" * 70)\n    print()\n    # Find the latest Pennsylvania properties file\n    import glob",
+        "detail": "import_to_mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "MONGODB_DB_NAME",
+        "kind": 5,
+        "importPath": "import_to_mongodb",
+        "description": "import_to_mongodb",
+        "peekOfCode": "MONGODB_DB_NAME = os.getenv('MONGODB_DB_NAME', 'propfusion')\ndef import_properties():\n    \"\"\"Import properties from JSON to MongoDB\"\"\"\n    print(\"=\" * 70)\n    print(\"PROPFUSION - MONGODB IMPORT\")\n    print(\"=\" * 70)\n    print()\n    # Find the latest Pennsylvania properties file\n    import glob\n    json_files = glob.glob('data/pennsylvania_properties_*.json')",
+        "detail": "import_to_mongodb",
+        "documentation": {}
+    },
+    {
+        "label": "main",
+        "kind": 2,
+        "importPath": "test_zillow_simple",
+        "description": "test_zillow_simple",
+        "peekOfCode": "def main():\n    \"\"\"Test Zillow scraper with single market\"\"\"\n    print(\"\\n\" + \"=\"*60)\n    print(\"ZILLOW SCRAPER TEST\")\n    print(\"=\"*60 + \"\\n\")\n    # Test configuration\n    test_location = \"Dallas, TX\"\n    test_budget = 500000\n    print(f\"Testing: {test_location} under ${test_budget:,}\")\n    print(\"This will take 2-3 minutes...\\n\")",
+        "detail": "test_zillow_simple",
+        "documentation": {}
+    },
+    {
+        "label": "RateLimiter",
+        "kind": 6,
+        "importPath": "zillow_scraper",
+        "description": "zillow_scraper",
+        "peekOfCode": "class RateLimiter:\n    \"\"\"Token bucket rate limiter for high-volume scraping\"\"\"\n    def __init__(self, limits: Dict = None):\n        if limits is None:\n            limits = RATE_LIMITS\n        self.requests_per_minute = limits[\"requests_per_minute\"]\n        self.delay_between_requests = limits[\"delay_between_requests\"]\n        self.last_request_time = 0\n        self.request_times = []\n    def wait_if_needed(self):",
+        "detail": "zillow_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "SessionManager",
+        "kind": 6,
+        "importPath": "zillow_scraper",
+        "description": "zillow_scraper",
+        "peekOfCode": "class SessionManager:\n    \"\"\"Manages scraping sessions with resume capability\"\"\"\n    def __init__(self, session_id: str):\n        self.session_id = session_id\n        self.cache_dir = f\"data/zillow_sessions/{session_id}\"\n        os.makedirs(self.cache_dir, exist_ok=True)\n    def save_progress(self, location: str, properties: List[Dict]):\n        \"\"\"Save incremental progress to disk\"\"\"\n        safe_name = location.replace(\", \", \"_\").replace(\" \", \"_\")\n        filepath = f\"{self.cache_dir}/{safe_name}.json\"",
+        "detail": "zillow_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "ZillowBatchScraper",
+        "kind": 6,
+        "importPath": "zillow_scraper",
+        "description": "zillow_scraper",
+        "peekOfCode": "class ZillowBatchScraper:\n    \"\"\"\n    High-volume scraper with rate limiting, caching, and resume capability\n    \"\"\"\n    def __init__(self, session_id: Optional[str] = None):\n        self.session_id = session_id or f\"zillow_{int(time.time())}\"\n        self.rate_limiter = RateLimiter(RATE_LIMITS)\n        self.session_manager = SessionManager(self.session_id)\n    def scrape_market(\n        self,",
+        "detail": "zillow_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "parse_price",
+        "kind": 2,
+        "importPath": "zillow_scraper",
+        "description": "zillow_scraper",
+        "peekOfCode": "def parse_price(price_text: str) -> int:\n    \"\"\"Parse price string to integer\"\"\"\n    if not price_text:\n        return 0\n    # Remove $ and commas, extract numbers\n    numbers = re.sub(r'[^\\d]', '', price_text)\n    return int(numbers) if numbers else 0\ndef parse_number(text: str) -> float:\n    \"\"\"Parse number from text (handles '3 bd', '2.5 ba', '1,800 sqft')\"\"\"\n    if not text:",
+        "detail": "zillow_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "parse_number",
+        "kind": 2,
+        "importPath": "zillow_scraper",
+        "description": "zillow_scraper",
+        "peekOfCode": "def parse_number(text: str) -> float:\n    \"\"\"Parse number from text (handles '3 bd', '2.5 ba', '1,800 sqft')\"\"\"\n    if not text:\n        return 0\n    # Extract first number (int or float)\n    match = re.search(r'(\\d+\\.?\\d*)', text.replace(',', ''))\n    return float(match.group(1)) if match else 0\ndef build_zillow_search_url(location: str, max_price: int, page: int = 1) -> str:\n    \"\"\"Build Zillow search URL for given location and price\"\"\"\n    # Zillow URL format: /city-state/price_rb/page_p/",
+        "detail": "zillow_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "build_zillow_search_url",
+        "kind": 2,
+        "importPath": "zillow_scraper",
+        "description": "zillow_scraper",
+        "peekOfCode": "def build_zillow_search_url(location: str, max_price: int, page: int = 1) -> str:\n    \"\"\"Build Zillow search URL for given location and price\"\"\"\n    # Zillow URL format: /city-state/price_rb/page_p/\n    # Example: /dallas-tx/0-500000_price/1_p/\n    # Clean location: \"Dallas, TX\" -> \"dallas-tx\"\n    location_slug = location.lower().replace(\", \", \"-\").replace(\" \", \"-\")\n    # Build URL\n    url = f\"https://www.zillow.com/{location_slug}/\"\n    # Add price filter\n    if max_price > 0:",
+        "detail": "zillow_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "extract_next_data",
+        "kind": 2,
+        "importPath": "zillow_scraper",
+        "description": "zillow_scraper",
+        "peekOfCode": "def extract_next_data(driver: Driver) -> Optional[Dict]:\n    \"\"\"\n    Extract __NEXT_DATA__ JSON from Zillow page\n    Zillow embeds all property data in a <script id=\"__NEXT_DATA__\"> tag.\n    This is the most reliable way to get structured data.\n    \"\"\"\n    try:\n        print(\"[Debug] Attempting to extract __NEXT_DATA__...\")\n        # Use JavaScript to extract the data (most reliable method for Botasaurus)\n        next_data = driver.run_js(\"\"\"",
+        "detail": "zillow_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "parse_zillow_next_data",
+        "kind": 2,
+        "importPath": "zillow_scraper",
+        "description": "zillow_scraper",
+        "peekOfCode": "def parse_zillow_next_data(next_data: Dict) -> List[Dict]:\n    \"\"\"\n    Parse Zillow's __NEXT_DATA__ structure to extract property listings\n    Structure: props.pageProps.searchPageState.cat1.searchResults.listResults\n    \"\"\"\n    try:\n        print(\"[Debug] Parsing __NEXT_DATA__ structure...\")\n        # Navigate nested structure with debug logging\n        props = next_data.get(\"props\", {})\n        print(f\"[Debug] - props keys: {list(props.keys())[:5] if props else 'None'}\")",
+        "detail": "zillow_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "parse_zillow_dom",
+        "kind": 2,
+        "importPath": "zillow_scraper",
+        "description": "zillow_scraper",
+        "peekOfCode": "def parse_zillow_dom(driver: Driver) -> List[Dict]:\n    \"\"\"\n    Fallback DOM parser if __NEXT_DATA__ extraction fails\n    Scrapes visible property cards using JavaScript\n    \"\"\"\n    properties = []\n    try:\n        # Use JavaScript to extract property data from DOM\n        properties_data = driver.run_js(\"\"\"\n            const cards = document.querySelectorAll('article[data-test=\"property-card\"]');",
+        "detail": "zillow_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "scrape_zillow_search",
+        "kind": 2,
+        "importPath": "zillow_scraper",
+        "description": "zillow_scraper",
+        "peekOfCode": "def scrape_zillow_search(driver: Driver, search_params: Dict) -> List[Dict]:\n    \"\"\"\n    Scrape Zillow search results using Botasaurus browser automation\n    Args:\n        driver: Botasaurus Driver instance\n        search_params: {\"location\": \"Dallas, TX\", \"max_price\": 500000, \"page\": 1}\n    Returns:\n        List of property dictionaries\n    \"\"\"\n    location = search_params[\"location\"]",
+        "detail": "zillow_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "transform_zillow_to_propfusion",
+        "kind": 2,
+        "importPath": "zillow_scraper",
+        "description": "zillow_scraper",
+        "peekOfCode": "def transform_zillow_to_propfusion(zillow_prop: Dict) -> Dict:\n    \"\"\"\n    Transform Zillow property schema to PropFusion schema\n    Matches the format in agno_tools.py _process_single_property()\n    \"\"\"\n    # Extract address components\n    address = zillow_prop.get(\"address\", \"\")\n    city = zillow_prop.get(\"city\", \"\")\n    state = zillow_prop.get(\"state\", \"\")\n    zipcode = zillow_prop.get(\"zipcode\", \"\")",
+        "detail": "zillow_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "fetch_zillow_properties",
+        "kind": 2,
+        "importPath": "zillow_scraper",
+        "description": "zillow_scraper",
+        "peekOfCode": "def fetch_zillow_properties(\n    locality: str,\n    budget: float,\n    user_id: Optional[str] = None,\n    session_id: Optional[str] = None\n) -> List[Dict]:\n    \"\"\"\n    Public API matching agno_tools.py fetch_properties() signature\n    This allows drop-in replacement:\n        from zillow_scraper import fetch_zillow_properties",
+        "detail": "zillow_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "ZILLOW_CONFIG",
+        "kind": 5,
+        "importPath": "zillow_scraper",
+        "description": "zillow_scraper",
+        "peekOfCode": "ZILLOW_CONFIG = {\n    # Anti-bot settings\n    \"headless\": True,  # Headless mode (no browser window)\n    \"user_agent\": \"random\",\n    \"block_images\": False,  # Keep images for better detection bypass\n    \"wait_for_complete_page_load\": True,\n    # Performance\n    \"parallel\": 1,  # Single browser for debugging\n    \"max_retry\": 3,\n    \"retry_wait\": 10,  # 10 seconds between retries",
+        "detail": "zillow_scraper",
+        "documentation": {}
+    },
+    {
+        "label": "RATE_LIMITS",
+        "kind": 5,
+        "importPath": "zillow_scraper",
+        "description": "zillow_scraper",
+        "peekOfCode": "RATE_LIMITS = {\n    \"requests_per_minute\": 12,\n    \"requests_per_hour\": 600,\n    \"delay_between_requests\": 5,  # 5 seconds\n    \"backoff_multiplier\": 2,\n}\n# ============================================================================\n# RATE LIMITER\n# ============================================================================\nclass RateLimiter:",
+        "detail": "zillow_scraper",
         "documentation": {}
     }
 ]
